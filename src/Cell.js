@@ -10,8 +10,8 @@ export default class Cell extends Component {
   }
 
   handleClick = () => {
- const color = this.props.finalColor
- this.setState({color})
+ 
+ this.setState({color: this.props.selectedColor })
 
   }
   
